@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Construcciones y Reformas Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .hero-bg {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("/api/placeholder/1600/900");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navegación -->
+    <nav class="bg-white shadow-md p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="text-2xl font-bold text-blue-700">Construcciones Pro</div>
+        <div>
+          <a
+            href="servicios-construcciones.html"
+            class="mx-2 hover:text-blue-600"
+            >Servicios</a
+          >
+          <a href="precios-construcciones.html" class="mx-2 hover:text-blue-600"
+            >Precios</a
+          >
+          <a href="#contacto" class="mx-2 hover:text-blue-600">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white text-center py-24">
+      <div class="container mx-auto px-4">
+        <h1 class="text-5xl font-bold mb-6">
+          Construimos tus ideas, renovamos tus espacios
+        </h1>
+        <p class="text-xl mb-8">
+          Transformamos proyectos con profesionalismo, calidad y compromiso
+        </p>
+        <div>
+          <a
+            href="#contacto"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 mr-4"
+          >
+            Solicita tu presupuesto
+          </a>
+          <a
+            href="#trabajos"
+            class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-full transition duration-300"
+          >
+            Ver trabajos realizados
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Servicios -->
+    <section id="servicios" class="container mx-auto py-16 px-4">
+      <h2 class="text-4xl font-bold text-center mb-12">Nuestros Servicios</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-16 w-16 mx-auto mb-4 text-blue-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h3a1 1 0 011 1v5m-4 0h4"
+            />
+          </svg>
+          <h3 class="text-xl font-semibold mb-4">Construcción</h3>
+          <p>Proyectos integrales de construcción residencial y comercial</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-16 w-16 mx-auto mb-4 text-blue-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a1 1 0 01-1-1V7a1 1 0 011-1h1a2 2 0 100-4H4a1 1 0 01-1-1V4a1 1 0 011-1h3a1 1 0 011 1v1a2 2 0 104 0z"
+            />
+          </svg>
+          <h3 class="text-xl font-semibold mb-4">Reformas</h3>
+          <p>Renovaciones integrales y personalizadas para tu hogar</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-16 w-16 mx-auto mb-4 text-blue-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+            />
+          </svg>
+          <h3 class="text-xl font-semibold mb-4">Diseño</h3>
+          <p>Soluciones de diseño arquitectónico y planificación de espacios</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trabajos Realizados -->
+    <section id="trabajos" class="bg-gray-100 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-12">Nuestros Proyectos</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img
+              src="/api/placeholder/600/400"
+              alt="Proyecto 1"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Reforma de Cocina</h3>
+              <p>
+                Transformación completa de cocina moderna con diseño funcional
+              </p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img
+              src="/api/placeholder/600/400"
+              alt="Proyecto 2"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Casa Residencial</h3>
+              <p>
+                Construcción de vivienda unifamiliar con diseño contemporáneo
+              </p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img
+              src="/api/placeholder/600/400"
+              alt="Proyecto 3"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">Oficina Comercial</h3>
+              <p>
+                Remodelación de espacios de trabajo con soluciones ergonómicas
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container mx-auto py-16 px-4">
+      <div class="bg-white shadow-lg rounded-lg p-8 max-w-2xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-8">Contáctanos</h2>
+        <form class="space-y-4">
+          <input
+            type="text"
+            placeholder="Nombre"
+            class="w-full p-3 border rounded-md"
+          />
+          <input
+            type="email"
+            placeholder="Correo Electrónico"
+            class="w-full p-3 border rounded-md"
+          />
+          <input
+            type="tel"
+            placeholder="Teléfono"
+            class="w-full p-3 border rounded-md"
+          />
+          <textarea
+            placeholder="Describe tu proyecto"
+            class="w-full p-3 border rounded-md h-32"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-md transition duration-300"
+          >
+            Enviar Solicitud
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2024 Construcciones Pro. Todos los derechos reservados.</p>
+        <div class="mt-4">
+          <a href="#" class="mx-2 hover:text-blue-400"
+            >Política de Privacidad</a
+          >
+          <a href="#" class="mx-2 hover:text-blue-400">Términos de Servicio</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
